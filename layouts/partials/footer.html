@@ -1,6 +1,6 @@
 {{ .Site.Params.footerText | markdownify }}
 
-{{ if .Site.Param.GoogleAdSense }}
-  <script data-ad-client="{{ .Site.Param.GoogleAdSense }}" async
+{{ if .Site.Params.googleAdSense }}
+  <script data-ad-client="{{ .Site.Params.googleAdSense }}" async
     src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 {{ end }}
